@@ -1,28 +1,27 @@
 menu:
-   文章:
-     隧道: /archives/ || anzhiyu-icon-box-archive
-     分类: /categories/ || anzhiyu-icon-shapes
-     标签: /tags/ || anzhiyu-icon-tags
+   #文章:
+     #隧道: /archives/ || anzhiyu-icon-box-archive
+     #分类: /categories/ || anzhiyu-icon-shapes
+     #标签: /tags/ || anzhiyu-icon-tags
 
-   友链:
-     友人帐: /link/ || anzhiyu-icon-link
-  #   朋友圈: /fcircle/ || anzhiyu-icon-artstation
-     留言板: /comments/ || anzhiyu-icon-envelope
-
-   我的:
-     音乐馆: /music/?id=2803167371&server=netease || anzhiyu-icon-music
-     追番页: /bangumis/ || anzhiyu-icon-bilibili
-     相册集: /album/ || anzhiyu-icon-images
-     小空调: /air-conditioner/ || anzhiyu-icon-fan
-
-   关于:
-     关于本人: /about/ || anzhiyu-icon-paper-plane
-     闲言碎语: /essay/ || anzhiyu-icon-lightbulb
+   #友链:
+     #友人帐: /link/ || anzhiyu-icon-link
+  #  朋友圈: /fcircle/ || anzhiyu-icon-artstation
+     #留言板: /comments/ || anzhiyu-icon-envelope
      随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
+     音乐馆: /music/?id=2803167371&server=netease || anzhiyu-icon-music
+    #我的:
+     追番页: /bangumis/ || anzhiyu-icon-bilibili
+     #相册集: /album/ || anzhiyu-icon-images
+     #小空调: /air-conditioner/ || anzhiyu-icon-fan
 
+   #关于:
+     #关于本人: /about/ || anzhiyu-icon-paper-plane
+     #闲言碎语: /essay/ || anzhiyu-icon-lightbulb
+     
 # nav相关配置
 nav:
-  enable: false
+  enable: true
   travelling: false
   clock: false
   menu:
@@ -31,6 +30,11 @@ nav:
         - name: 博客
           link: https://azzlantern.github.io
           icon: /img/favicon.ico
+    - title: 搜索
+      item:
+        - name: 必应一下
+          link: https://bing.com
+          icon: https://img.icons8.com/fluency/48/bing--v1.png          
 
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
 # 注意： 仅网站首页变灰，其他页面正常显示
@@ -419,6 +423,10 @@ footer:
   runtime:
     enable: true
     launch_time: 07/04/2024 23:00:00 # 网站上线时间
+    work_img: https://pic.imge.cc/2024/07/10/668e5df06de17.gif
+    work_description: 咕咕咕~
+    offduty_img: https://pic.imge.cc/2024/07/10/668e5df06de17.gif
+    offduty_description: 咕噜咕噜。。。
   # 徽标部分配置项 https://shields.io/
   # https://img.shields.io/badge/CDN-jsDelivr-orange?style=flat&logo=jsDelivr
   bdageitem:
